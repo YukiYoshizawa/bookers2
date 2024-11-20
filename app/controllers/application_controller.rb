@@ -8,7 +8,7 @@ class ApplicationController < ActionController::Base
   # ログイン後どこに飛ぶかの設定
   
   def after_sign_out_path_for(resource)
-    about_path
+    root_path
   end
   # ログアウト後どこに飛ぶかの設定
 
